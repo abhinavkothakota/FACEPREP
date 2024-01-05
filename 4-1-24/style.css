@@ -1,0 +1,36 @@
+*{
+    color: aqua;
+    background-color: darkgoldenrod;
+    margin: 0;
+
+}
+.photo{
+    border-radius: 15px;
+    border-color: black;
+    border-style: groove;
+}
+#hi{
+    background-color: blueviolet;
+    color: aquamarine;
+}
+li>a{
+    color: blanchedalmond;
+    font-size: 45px;
+    background-color: black;
+}
+p a{
+    color: yellow;
+    background-color: violet;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1 +p{
+    color: teal;
+    background-color: turquoise;
+}
+h1 ~p{
+    color: tomato;
+    background-color: wheat;
+    border-style:solid ;
+    border-color: steelblue;
+    border-radius: 400px;
+}

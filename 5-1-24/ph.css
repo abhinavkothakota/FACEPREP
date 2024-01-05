@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: lightgrey;
+}
+h1{
+    margin: 45px;
+    background-color: aliceblue;
+    border-style: solid;
+}
+.FT{
+    background-color:  rgb(53, 122, 175);
+    
+}
+.TH{
+    background-color: rgb(54, 134, 185);        
+  }
+.TW {
+    background-color: #3293c3;        
+  }
+.EL{
+    background-color: #469fcb;        
+  }
+.T{
+    background-color: #5fadd2;        
+}
+.N {
+    background-color: #75bada;        
+  }
+  
+.E{
+    background-color: #8dc4df;        
+  }
+  
+.NEUTRAL{
+    background-color: #23ab7e;     
+  }
+  
+.SI {
+    background-color: #e7abc1;        
+  }
+  
+  .FI{
+    background-color: #e799b5;        
+  }
+.F {
+    background-color: #e587a7;
+  }
+  
+.THREE{
+    background-color: #e2749a;    
+  }
+  
+.TWO{
+    background-color: #e0658a;      
+  }
+  
+.O{
+    background-color: #db5580;     
+  }
+  
+.Z{
+    background-color: #da3d75;        
+  }
