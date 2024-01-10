@@ -15,10 +15,22 @@ select * from emp_datelist;
 alter table emp_datelist add country varchar(28) default "india";
 select * from emp_datelist;
 alter table emp_datelist rename column country to COUNTRY ;
-create table employee(
+
+create table employee1(
 empid INTEGER primary key,
 name TEXT NOT NULL,
 dept TEXT NOT NULL);
-insert into employee values(0001,'mg','CSE');
-insert into employee values(0069,"GM","ECE");
-select * from employee where dept = "CSE";
+desc employee1;
+
+create table employee2(
+empid INTEGER ,
+cust_name TEXT NOT NULL,
+dept TEXT NOT NULL,
+constraint empid foreign key (empid) references employee1(empid));
+desc employee2;
+
+insert into employee1 values(0003,'mg','CSE');
+insert into employee2 values(0001,"GM","ECE");
+select * from employee1;
+create view ece_employees as select * from employee2 where dept = "ECE";
+select * from ece_employees;
