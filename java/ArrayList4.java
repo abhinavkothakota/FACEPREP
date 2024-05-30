@@ -14,7 +14,7 @@ class ArrayList4{
 
               while(list1.hasPrevious())  
               {  
-                  String str=list1.previous();  
+                  String str=list1.previous();                
                   System.out.println(str);  
               }  
 
